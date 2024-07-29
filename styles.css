@@ -111,6 +111,22 @@
     }
     .search-btn{
         margin-top: 10px;
-        
+
+    }
+    .input-user-id{
+        width: auto;
+    }
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header h2{
+        align-self: flex-end;
+    }
+    .user-info-card{
+        display: block;
+    }
+    .user-info-card h3{
+        text-align: center;
     }
 }
