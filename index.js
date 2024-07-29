@@ -75,6 +75,8 @@ ModeBtn.addEventListener('click',()=>{
         document.querySelector(".input-user-id").classList.add("ainput-user-id");
         document.querySelector(".search-btn").classList.add("asearch-btn");
         document.querySelector(".content").classList.add("acontent");
+        document.querySelector(".user-repo").classList.add("acontent");
+        document.querySelector(".user-following").classList.add("acontent");
         light="off";
     }
     else{
