@@ -1,0 +1,116 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.container{
+    position: relative;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    scale: 0;
+}
+.user-heading{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 20px;
+}
+.user-heading img{
+    border-radius: 40px;
+}
+.user-info-card{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.349);
+    width: 60%;
+    margin: auto;
+    border-radius: 30px;
+}
+.content{
+    color:rgb(85, 60, 13);
+    font-size: xx-large;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+.error-container{
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scale: 0;
+    margin-top: 20px;
+}
+.unactive{
+    scale: 1;
+}
+.active{
+    scale: 1;
+}
+.user-bio{
+    width:400px;
+}
+
+.input-user-id{
+    background-color: rgba(163, 192, 206, 0.267);
+    width: 400px;
+    height: 30px;
+    box-shadow: 2px 3px 4px rgb(243, 157, 157);
+    border: 2px solid rgb(3, 3, 24);
+}
+.search-btn{
+    height: 30px;
+    width: 70px;
+    margin-left: 10px;
+    background-color: rgba(163, 192, 206, 0.267);
+    color: rgb(0, 7, 12);
+    border: 2px solid rgb(3, 3, 24);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.abody{
+    background-color: rgba(0, 0, 0, 0.918);
+    color: whitesmoke;
+}
+.ainput-user-id{
+    background-color: rgba(48, 82, 121, 0.226);
+    box-shadow: 2px 3px 4px rgb(243, 199, 199);
+    border: 2px solid rgb(11, 11, 252);
+    color: rgb(225, 225, 240);
+}
+.asearch-btn{
+    background-color: rgba(225, 240, 248, 0.945);
+    color: rgb(11, 116, 190);
+    border: 2px solid rgb(11, 11, 252);
+}
+.acontent{
+    color: wheat;
+}
+.mode-image{
+    cursor: pointer;
+    
+}
+@media (max-width:800px) {
+    .user-photo{
+        height: 80px;
+        width: 80px;
+    }
+    .user-bio {
+        width: auto;
+    }
+    .search-btn{
+        margin-top: 10px;
+        
+    }
+}
